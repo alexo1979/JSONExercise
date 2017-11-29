@@ -26,62 +26,62 @@ public class MainActivity extends AppCompatActivity {
         textView = (TextView) findViewById(R.id.textView);
         textView.setMovementMethod(new ScrollingMovementMethod());
 
-        String coloursJSONstring = "{" +
-                "       \"colors\":" + "[" +
-                "{" +
-                " \"color\" :   \"black\"," +
-                " \"category\" : \"hue\"," +
-                " \"type\" : \"primary\"," +
-                " \"code\" : " + "{" +
-                " \"rgba\" : [255,255,255,1]," +
-                " \"hex\" : \"#000\"" +
-                "}" +
-                "}," +
-                "{" +
-                " \"color\" : \"white´\"," +
-                " \"category\" : \"value\"," +
-                " \"code\" : " + "{" +
-                " \"rgba\" : [0,0,0,1]," +
-                " \"hex\" : \"#FFF\"" +
-                "}" +
-                "}," +
-                "{" +
-                " \"color\" :   \"red\"," +
-                " \"category\" : \"hue\"," +
-                " \"type\" : \"primary\"," +
-                " \"code\" : " + "{" +
-                " \"rgba\" : [255,0,0,1]," +
-                " \"hex\" : \"#FF0\"" +
-                "}" +
-                "}," +
-                "{" +
-                " \"color\" :   \"blue\"," +
-                " \"category\" : \"hue\"," +
-                " \"type\" : \"primary\"," +
-                " \"code\" : " + "{" +
-                " \"rgba\" : [0,0,255,1]," +
-                " \"hex\" : \"#00F\"" +
-                "}" +
-                "}," +
-                "{" +
-                " \"color\" :   \"yellow\"," +
-                " \"category\" : \"hue\"," +
-                " \"type\" : \"primary\"," +
-                " \"code\" : " + "{" +
-                " \"rgba\" : [255,255,0,1]," +
-                " \"hex\" : \"#FF0\"" +
-                "}" +
-                "}," +
-                "{" +
-                " \"color\" :   \"green\"," +
-                " \"category\" : \"hue\"," +
-                " \"type\" : \"secondary\"," +
-                " \"code\" : " + "{" +
-                " \"rgba\" : [0,255,0,1]," +
-                " \"hex\" : \"#0F0\"" +
-                "}" +
-                "}" +
-                "]" +
+        String coloursJSONstring = "{\n" +
+                "  \"colors\": [\n" +
+                "    {\n" +
+                "      \"color\": \"black\",\n" +
+                "      \"category\": \"hue\",\n" +
+                "      \"type\": \"primary\",\n" +
+                "      \"code\": {\n" +
+                "        \"rgba\": [255,255,255,1],\n" +
+                "        \"hex\": \"#000\"\n" +
+                "      }\n" +
+                "    },\n" +
+                "    {\n" +
+                "      \"color\": \"white\",\n" +
+                "      \"category\": \"value\",\n" +
+                "      \"code\": {\n" +
+                "        \"rgba\": [0,0,0,1],\n" +
+                "        \"hex\": \"#FFF\"\n" +
+                "      }\n" +
+                "    },\n" +
+                "    {\n" +
+                "      \"color\": \"red\",\n" +
+                "      \"category\": \"hue\",\n" +
+                "      \"type\": \"primary\",\n" +
+                "      \"code\": {\n" +
+                "        \"rgba\": [255,0,0,1],\n" +
+                "        \"hex\": \"#FF0\"\n" +
+                "      }\n" +
+                "    },\n" +
+                "    {\n" +
+                "      \"color\": \"blue\",\n" +
+                "      \"category\": \"hue\",\n" +
+                "      \"type\": \"primary\",\n" +
+                "      \"code\": {\n" +
+                "        \"rgba\": [0,0,255,1],\n" +
+                "        \"hex\": \"#00F\"\n" +
+                "      }\n" +
+                "    },\n" +
+                "    {\n" +
+                "      \"color\": \"yellow\",\n" +
+                "      \"category\": \"hue\",\n" +
+                "      \"type\": \"primary\",\n" +
+                "      \"code\": {\n" +
+                "        \"rgba\": [255,255,0,1],\n" +
+                "        \"hex\": \"#FF0\"\n" +
+                "      }\n" +
+                "    },\n" +
+                "    {\n" +
+                "      \"color\": \"green\",\n" +
+                "      \"category\": \"hue\",\n" +
+                "      \"type\": \"secondary\",\n" +
+                "      \"code\": {\n" +
+                "        \"rgba\": [0,255,0,1],\n" +
+                "        \"hex\": \"#0F0\"\n" +
+                "      }\n" +
+                "    }\n" +
+                "  ]\n" +
                 "}";
 
         try {
