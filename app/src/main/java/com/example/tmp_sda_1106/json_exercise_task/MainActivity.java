@@ -161,7 +161,6 @@ public class MainActivity extends AppCompatActivity {
 
         jsonArray.put(orange);
 
-        // textView.setText(jsonArray.toString());
 
         String text = "";
 
