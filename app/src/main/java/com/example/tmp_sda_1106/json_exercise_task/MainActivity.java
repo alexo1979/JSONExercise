@@ -168,7 +168,7 @@ public class MainActivity extends AppCompatActivity {
         for (int i = 0; i < jsonArray.length(); i++) {
             JSONObject object = jsonArray.getJSONObject(i);
             text = text.concat(object.toString());
-            text = text.concat("\n");
+            text = text.concat("\n\n");
         }
 
 
